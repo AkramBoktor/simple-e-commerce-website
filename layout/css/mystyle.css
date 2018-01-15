@@ -1,0 +1,200 @@
+/******* login form **********/
+.login h2{
+	
+	text-align:center;
+	color:#888;
+}
+
+.login{
+	
+	margin:0 auto;
+	width:350px;
+	margin-top:200px;
+}
+.login .btn-primary {
+	
+	width:350px;
+	text-align:center;
+	margin-top:10px;
+}
+.form-group-lg .form-control{
+	position:relative;
+}
+.asterisk{
+	font-size:25px;
+	position:absolute;
+	right: 24px;
+	top: 10px;
+	color:red;
+}
+/********* navbar ********/
+
+.dropdown-menu{
+	padding:0px;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open{
+    color: #f5f1f1;
+    background-color:#0a206b;
+}
+.dropdown-menu>li>a {
+    display: block;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+	color:#fff;
+    background-color: #0a206b;
+}
+/********** members editi *******/
+h1{
+    margin-top: 67px;
+    text-align: center;
+    margin-bottom: 10px;
+	color:	#8D0D19; 
+}
+/*********** update members ********/
+.add{
+	margin-top:50px;
+}
+/*********** add member eyes ********/
+.show-pass{
+	position: absolute;
+    top: 13px;
+    right: -25;
+}
+/******* Table ********/
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td
+,.table-condensed>thead>tr>th{
+
+	vertical-align:middle;
+	padding:5px;
+}
+.info .btn{
+	padding: 0px 9px;
+}
+.newmember.btn{
+	padding: 3px 3px; !important
+}
+/******** dashboard **********/
+.stat{
+	border-radius:8px;
+	padding:10px;
+	font-size:20px;
+}
+.stat a{
+	text-decoration:none;
+	color:#FFF;
+}
+.stat span{
+	display:block;
+	font-size:70px;
+}
+.stat.st-member{
+	background-color:#4295f4;
+	color:#FFF;	
+}
+.stat.st-pending{
+	background-color:#59891b;
+	color:#FFF;
+}
+.stat.st-commecnt{
+	background-color:#d8660f;
+	color:#FFF;
+}
+.stat.st-item{
+	background-color:#d8190e;
+	color:#FFF;
+}
+/**** latest in dashboard ****/
+.latest-info{
+	margin-top:40px;
+}
+.last-user .btn-info{
+	padding:3px 8px;
+	margin-right:1px;
+}
+.last-user li{
+	overflow:hidden;
+	margin-bottom:10px;
+	padding:2px;
+}
+.last-user li:nth-child(odd) {
+    background: #D4E6F4;
+}
+
+/******** category manage ********/
+.panel-body{
+	padding:4px;
+}
+.category .cat{
+	position:relative;
+	overflow:hidden;
+}
+.category .cat h2{
+	cursor:pointer;
+}
+.category .cat .unvisible{
+	background-color:#2c3e50;
+	color:#FFF;
+	margin-right:10px;
+	padding:2px 5px;
+	border-radius:5px;
+	
+}
+.category .cat .button-cat a{
+margin-right:5px;
+}
+.category .cat .button-cat{
+	transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	position:absolute;
+	top:15px;
+	right:-120;
+}
+.category .cat:hover .button-cat{
+	
+	right:10px;
+}
+.category .cat:hover{
+	background:#EEE; 
+}
+.category hr{
+	border-top:3px solid #EEE;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+/********** ordering to how show data in manage page  ***********/
+.ordering  a{
+	
+	text-decoration:none;
+	background:#689DC1;
+	padding:5px;
+	color:#DDD;
+	border-radius:5px;
+}.ordering  span{
+	cursor:pointer;
+	text-decoration:none;
+	background:#689DC1;
+	padding:5px;
+	color:#DDD;
+	border-radius:5px;
+}
+.ordering  a:active{
+	
+
+	color:red;
+
+}
+
+/******************* items select box ***********/
+.selectboxit-container{
+	width:298px;
+}
+
+.selectboxit-container .selectboxit {
+	width:100px;
+	border-radius:30px;
+}
+
+
